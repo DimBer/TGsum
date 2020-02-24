@@ -28,7 +28,7 @@ Command line: `./sum [OPTIONS]`
 __ARGUMENTS & OPTIONS__
 
 ARGUMENT | DESCRIPTION
--------- | ------ | -------
+-------- | ------ 
 `--graph` | Path to file containing edge-list (see above) 
 `--save-to` | Path to summary graph output
 `--bands` | Set number (>=1) of lsh bands
