@@ -93,7 +93,8 @@ int main(int argc, char **argv)
     test_graph.save_as( opts.save_to + "_final" );
 
 
-  cout << "\nMean compression ratio: " << ratio/ (double) nseeds;
+  cout << "\nMean compression ratio: " << 1.0 -( ratio/ (double) nseeds);
+  
   cout << "\nMean runtime: " << runtime / nseeds;
 
   cout << "\nMean candidate coverage: " << cand_coverage/ (double) nseeds;
